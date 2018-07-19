@@ -8,6 +8,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <% response.sendRedirect("index"); %>
+        <% response.sendRedirect("index1"); %>
     </body>
 </html>

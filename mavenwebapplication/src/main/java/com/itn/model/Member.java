@@ -13,7 +13,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="member_tbl")
 public class Member implements Serializable {
-    public static final long serialVersionUID=12312L;
+    public static final long serialVersionUID=12312;
      
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
@@ -30,6 +30,13 @@ public class Member implements Serializable {
 	public Member(int id, String name, long phone, String address) {
 		super();
 		this.id = id;
+		this.name = name;
+		this.phone = phone;
+		this.address = address;
+	}
+
+	public Member(String name, long phone, String address) {
+		super();
 		this.name = name;
 		this.phone = phone;
 		this.address = address;
@@ -61,6 +68,10 @@ public class Member implements Serializable {
 
 	public String getAddress() {
 		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
   
     
