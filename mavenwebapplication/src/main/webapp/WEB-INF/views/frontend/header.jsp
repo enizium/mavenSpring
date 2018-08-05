@@ -7,9 +7,7 @@
 <head>
 <title>News Zone</title>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-<link rel="stylesheet"
-	href="${pageContext.request.contextPath}/gear/css/style.css"
-	type="text/css" media="all"/>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/gear/css/style.css" type="text/css" media="all"/>
 <!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
 
 <script type="text/javascript">
@@ -58,8 +56,8 @@
 				<li><a href="#">news &amp; events</a></li>
 				<li><a href="#">photo gallery</a></li>
 				<li><a href="#">video gallery</a></li>
-				<li><a href="#">community</a></li>
-				<li><a href="#">schedules</a></li>
+				<li><a href="${pageContext.request.contextPath}/Login">login</a></li>
+				<li><a href="${pageContext.request.contextPath}/Signup">signup</a></li>
 			</ul>
 			<div class="cl">&nbsp;</div>
 		</div>

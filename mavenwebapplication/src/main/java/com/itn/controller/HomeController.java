@@ -27,4 +27,15 @@ public class HomeController {
 		model.addAttribute("newslist", newsService.getAllNews());
 		return "frontend/index";
 	}
+	@GetMapping("/Loginnig")
+	public String login()
+	{
+		return "frontend/logging";
+	}
+	@GetMapping("/Signup")
+	public String signup()
+	{
+		return "frontend/signup";
+	}
+	
 }

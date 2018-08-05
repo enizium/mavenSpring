@@ -50,8 +50,7 @@ public class MemberDAOImpl implements MemberDAO{
     	ls.add(session.get(Member.class, id));
     	session.getTransaction().commit();
     	session.close();
-    	System.out.println(ls.get(0).getName());
-    	
+    	System.out.println(ls.get(0).getName());   	
     	return ls;
     	
    }
@@ -74,4 +73,5 @@ public class MemberDAOImpl implements MemberDAO{
  }
  
     
+
 }

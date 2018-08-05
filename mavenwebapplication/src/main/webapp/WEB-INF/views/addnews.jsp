@@ -128,7 +128,7 @@
 				<nav class="navbar-sidebar">
 					<ul class="list-unstyled navbar__list">
 						<li class="active has-sub"><a
-							href="${pageContext.request.contextPath}/index" class="js-arrow">
+							href="${pageContext.request.contextPath}/Admin/Dashboard" class="js-arrow">
 								<i class="fas fa-tachometer-alt"></i>Dashboard
 						</a></li>
 

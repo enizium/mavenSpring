@@ -3,7 +3,8 @@
         <div id="heading-box-cnt">
           <div class="cl">&nbsp;</div>
           <!-- Main Slide Item -->
-          <div class="featured-main"> <a href="#"><img src="${pageContext.request.contextPath}/gear/css/images/featured-main.jpg" alt="" /></a>
+          <div class="featured-main"> 
+          <a href="#"><img src="${pageContext.request.contextPath}/gear/css/images/featured-main.jpg" alt="" /></a>
             <div class="featured-main-details">
               <div class="featured-main-details-cnt">
                 <h4><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></h4>
@@ -94,7 +95,7 @@
       <div><h3><a href="#/">${newslist.title}</a></h3></div>
         
         <a href="#"><img src="images/${newslist.image}" alt="" width="200px" height="150px"/></a>
-        <div style="display: inline-block;"> <span>${newslist.date}</span> <a href="#" class="button" style="float-left;">Read more</a></div>
+        <div> <span style="color: #1f1f1f;">${newslist.date}</span> <a href="#" class="button" style="float-left;">Read more</a></div>
        
       </div>
       </c:forEach>

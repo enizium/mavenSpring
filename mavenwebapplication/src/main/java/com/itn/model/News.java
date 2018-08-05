@@ -2,8 +2,6 @@ package com.itn.model;
 
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.Date;
-
 import javax.persistence.*;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

@@ -14,7 +14,6 @@ public class UserRole implements Serializable {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int id;
-    private int uid;
     private String authority;
 	public UserRole() {
 		super();
@@ -22,12 +21,12 @@ public class UserRole implements Serializable {
 	public UserRole(int id, int uid, String authority) {
 		super();
 		this.id = id;
-		this.uid = uid;
+//		this.uid = uid;
 		this.authority = authority;
 	}
 	public UserRole(int uid, String authority) {
 		super();
-		this.uid = uid;
+//		this.uid = uid;
 		this.authority = authority;
 	}
 	public int getId() {
@@ -36,12 +35,12 @@ public class UserRole implements Serializable {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public int getUid() {
+	/*public int getUid() {
 		return uid;
 	}
 	public void setUid(int uid) {
 		this.uid = uid;
-	}
+	}*/
 	public String getAuthority() {
 		return authority;
 	}
@@ -49,6 +48,4 @@ public class UserRole implements Serializable {
 		this.authority = authority;
 	}
     
-    
-
 }
